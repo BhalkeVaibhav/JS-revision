@@ -16,4 +16,5 @@ console.log(num2); //
 console.log(typeof(num2));//Number
 console.log( Boolean(num));//true
 
-//33
+
+
