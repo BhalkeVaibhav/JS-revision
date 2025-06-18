@@ -51,7 +51,33 @@ console.log(typeof (arr));
 console.log(typeof(objectName) );
 console.log(typeof(myFunction) );
 
-let email=""
+
+// stack example
+let email="vaibhavbhalke123@gmail.com";
+
+let newEmail=email;
+
+console.log(newEmail);
+console.log(typeof(email));
+newEmail="bhalkevaibhav2025@gmail.com";
+console.log(newEmail);
+
+// heap example
+let userOne={
+    name:"Vaibhav",
+    id:12,
+    email:"Vaibhav123@gmail.com"   
+
+}
+console.log(userOne);
+let user2=userOne
+console.log(user2)
+
+user2.email="bhalkevaibhav2025@gmail.com"
+console.log(user2)
+console.log(userOne)
+
+
 
 
 
